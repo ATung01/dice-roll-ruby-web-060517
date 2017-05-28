@@ -3,5 +3,8 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
+  dice_roll = (1..6)
+  #.. includes 6
+rand(dice_roll)
   # code goes here
 end
